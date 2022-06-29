@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Mulish",sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('bac.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-position: center;
+    opacity: 10;
+    display:grid;
+    place-items: center;
+}
+form{
+    background-color: rgb(237, 16, 148);
+    padding:60px;
+    font-size: 20px;
+    border:2px solid black;
+    border-radius: 25px;
+    vertical-align: top;
+}
+.submit{
+    margin-left: 180px;
+    background-color: black;
+    color: white;
+   margin-top:10px;
+   font-size: 20px;
+}
+#temp{
+    margin-top:10px;
+   font-size: 20px;
+}
+#temp_diff{
+    margin-top:10px;
+   font-size: 20px;
+}
+span{
+    margin-left: 140px;
+    margin-top:10px;
+   font-size: 20px;
+   align-items: center;
+   text-align: center;
+
+}
